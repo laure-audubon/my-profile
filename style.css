@@ -1,0 +1,120 @@
+/* Colors and fonts */
+
+body	{ 
+	background-color:#5f6769;
+	color: grey;
+	line-height: 1.6;
+	letter-spacing: 5px; 
+	font-family: "Montserrat", sans serif; 
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1 { 
+	font-size: 40px;
+	color: #719192;
+	font-weight: 900;
+}
+
+h2 { 
+	font-size: 30px;
+	color: ;#3c4245;
+	font-weight: 500;
+	font-weight: lighter;
+}
+
+a { 
+	text-decoration: none; 
+	color: none; 
+}	
+
+p { 
+	text-justify: center; 
+	text-justify: justify;
+	color: #dfcdc3;
+	font-size: 15px;
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: 150px;
+}
+
+a:hover{ 
+	color: #719192;
+}
+
+ /* Custom design with class */ 
+
+ .container {
+ 	width: 700px;
+ 	margin: 40px auto; 
+ }
+
+ @media ( max-width: 500px ) {
+ 	.container {
+ 		width: 400px; 
+ 	}
+ }
+
+  @media ( max-width: 760px ) {
+ 	.container {
+ 		width: 600px; 
+ 	}
+ }
+
+ .card-white {
+ 	background-color: white;
+ 	padding: 40px; 
+ 	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); 
+ 	border border-radius: 4px; 
+ 	margin: 20px 0px; 
+ 	text-align: center; 
+
+ }
+
+ .img-circle {
+ 	border-radius: 50%; 
+ }
+
+.btn-green {
+	background-color: #719192;
+	color: white;
+	padding: 15px 20px; 
+	border-radius: 4px; 
+}
+
+.btn-green:hover {
+	background-color:black;
+	color: white; 
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px; 
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px; 
+}
+
+.list-inline i {
+	font-size: 50px; 
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
